@@ -19,43 +19,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.AzureStorageServices", "4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.AzureMessagingServices", "5.AzureMessagingServices", "{650D54C2-BD1C-401A-9E7A-E1DA7A544E12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1780262E-77E0-4BCC-9022-D67C87FC1FB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAIVision", "ConsoleApp1\AzureAIVision.csproj", "{1780262E-77E0-4BCC-9022-D67C87FC1FB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{2DC49FEE-21B4-4C77-8392-793E12543317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAISpeech", "ConsoleApp2\AzureAISpeech.csproj", "{2DC49FEE-21B4-4C77-8392-793E12543317}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{B90E1064-B6E2-492E-8DC7-97555D33CD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAILanguage", "ConsoleApp3\AzureAILanguage.csproj", "{B90E1064-B6E2-492E-8DC7-97555D33CD5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{84B3E53D-C7AE-4831-806F-91D62C8ACA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAITransalator", "ConsoleApp4\AzureAITransalator.csproj", "{84B3E53D-C7AE-4831-806F-91D62C8ACA51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "ConsoleApp5\ConsoleApp5.csproj", "{B6C89C5E-4CFF-4D65-8586-B0DEF616021A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSqlDB", "ConsoleApp5\AzureSqlDB.csproj", "{B6C89C5E-4CFF-4D65-8586-B0DEF616021A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp6", "ConsoleApp6\ConsoleApp6.csproj", "{F812AA5A-E07D-4731-BA20-96A292FDC936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCosmosDB", "ConsoleApp6\AzureCosmosDB.csproj", "{F812AA5A-E07D-4731-BA20-96A292FDC936}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp7", "ConsoleApp7\ConsoleApp7.csproj", "{EDCAF3DF-F4D9-4D7B-A1CC-F65BA5FA4022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePostgresSql", "ConsoleApp7\AzurePostgresSql.csproj", "{EDCAF3DF-F4D9-4D7B-A1CC-F65BA5FA4022}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp8", "ConsoleApp8\ConsoleApp8.csproj", "{8AC8CC76-93F8-413D-952C-A1A772F6C6E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureredisForCache", "ConsoleApp8\AzureredisForCache.csproj", "{8AC8CC76-93F8-413D-952C-A1A772F6C6E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp9", "ConsoleApp9\ConsoleApp9.csproj", "{99AB07F1-FD38-4FFC-B1E0-4A2623A7365A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDataLakeStorage", "ConsoleApp9\AzureDataLakeStorage.csproj", "{99AB07F1-FD38-4FFC-B1E0-4A2623A7365A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp10", "ConsoleApp10\ConsoleApp10.csproj", "{3BD237CA-00A0-456F-82A6-CCB8C880ABC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobStorage", "ConsoleApp10\AzureBlobStorage.csproj", "{3BD237CA-00A0-456F-82A6-CCB8C880ABC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp11", "ConsoleApp11\ConsoleApp11.csproj", "{5A703B90-47A1-48C9-B105-A3DEEBF68F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus", "ConsoleApp11\AzureServiceBus.csproj", "{5A703B90-47A1-48C9-B105-A3DEEBF68F91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp12", "ConsoleApp12\ConsoleApp12.csproj", "{2777BD8D-B927-4EA8-AB96-F0ECD7F5EF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureEventBus", "ConsoleApp12\AzureEventBus.csproj", "{2777BD8D-B927-4EA8-AB96-F0ECD7F5EF42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.AzureIdentityAndSecurity", "6.AzureIdentityAndSecurity", "{0C45C138-43FA-4A0C-B178-EB89E5D0FF9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.AzureManagemenet", "7.AzureManagemenet", "{649E5DEE-2E4E-4AAA-BBAE-0BF96A7AEE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp13", "ConsoleApp13\ConsoleApp13.csproj", "{472349A8-441E-41CD-A3D5-4B1AF7EEE516}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEntraId", "ConsoleApp13\AzureEntraId.csproj", "{472349A8-441E-41CD-A3D5-4B1AF7EEE516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp14", "ConsoleApp14\ConsoleApp14.csproj", "{5CD25870-D204-472C-B101-AD1A1785882C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKeyValut", "ConsoleApp14\AzureKeyValut.csproj", "{5CD25870-D204-472C-B101-AD1A1785882C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp15", "ConsoleApp15\ConsoleApp15.csproj", "{C85781A6-1C9C-4DFA-8DA5-F6BEABB04E14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAppConfiguration", "ConsoleApp15\AzureAppConfiguration.csproj", "{C85781A6-1C9C-4DFA-8DA5-F6BEABB04E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp16", "ConsoleApp16\ConsoleApp16.csproj", "{E51371C6-2E9E-4DEA-8EDC-6F7CED71711C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMonitor", "ConsoleApp16\AzureMonitor.csproj", "{E51371C6-2E9E-4DEA-8EDC-6F7CED71711C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp17", "ConsoleApp17\ConsoleApp17.csproj", "{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAppInsights", "ConsoleApp17\AzureAppInsights.csproj", "{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureQueueStorage", "ConsoleApp18\AzureQueueStorage.csproj", "{13055BC0-95EF-42F5-8212-D42ABB069ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKafka", "ConsoleApp19\AzureKafka.csproj", "{383B43F0-F320-42BB-A0DB-A0B3E17D997F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,14 @@ Global
 		{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13055BC0-95EF-42F5-8212-D42ABB069ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13055BC0-95EF-42F5-8212-D42ABB069ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13055BC0-95EF-42F5-8212-D42ABB069ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13055BC0-95EF-42F5-8212-D42ABB069ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383B43F0-F320-42BB-A0DB-A0B3E17D997F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383B43F0-F320-42BB-A0DB-A0B3E17D997F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383B43F0-F320-42BB-A0DB-A0B3E17D997F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383B43F0-F320-42BB-A0DB-A0B3E17D997F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +180,8 @@ Global
 		{C85781A6-1C9C-4DFA-8DA5-F6BEABB04E14} = {0C45C138-43FA-4A0C-B178-EB89E5D0FF9B}
 		{E51371C6-2E9E-4DEA-8EDC-6F7CED71711C} = {649E5DEE-2E4E-4AAA-BBAE-0BF96A7AEE2F}
 		{3FF005BE-D9DA-4E4A-A6BF-4DFA8BCB390C} = {649E5DEE-2E4E-4AAA-BBAE-0BF96A7AEE2F}
+		{13055BC0-95EF-42F5-8212-D42ABB069ED8} = {650D54C2-BD1C-401A-9E7A-E1DA7A544E12}
+		{383B43F0-F320-42BB-A0DB-A0B3E17D997F} = {650D54C2-BD1C-401A-9E7A-E1DA7A544E12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F28DC81-3BDC-47F7-8202-075AFD3DF9B7}
