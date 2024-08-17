@@ -51,7 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure-AppServices", "Azure-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure-Functions", "Azure-Functions\Azure-Functions.csproj", "{59D55177-91A1-4078-A052-17B8406F1824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMonitorWithApplicationInsights", "AzureMonitorWithApplicationInsights\AzureMonitorWithApplicationInsights\AzureMonitorWithApplicationInsights.csproj", "{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMonitorWithApplicationInsights", "AzureMonitorWithApplicationInsights\AzureMonitorWithApplicationInsights.csproj", "{368F25ED-66A2-4D85-939D-C900F0778A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,10 +127,10 @@ Global
 		{59D55177-91A1-4078-A052-17B8406F1824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D55177-91A1-4078-A052-17B8406F1824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D55177-91A1-4078-A052-17B8406F1824}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368F25ED-66A2-4D85-939D-C900F0778A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368F25ED-66A2-4D85-939D-C900F0778A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368F25ED-66A2-4D85-939D-C900F0778A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368F25ED-66A2-4D85-939D-C900F0778A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,7 +153,7 @@ Global
 		{383B43F0-F320-42BB-A0DB-A0B3E17D997F} = {650D54C2-BD1C-401A-9E7A-E1DA7A544E12}
 		{4C118CEE-7F68-46D4-9A21-6AAAA9E6C9A9} = {2199BDBD-8E7F-4644-B41C-78C9715CC326}
 		{59D55177-91A1-4078-A052-17B8406F1824} = {2199BDBD-8E7F-4644-B41C-78C9715CC326}
-		{AC6CBF3E-D653-4BAF-A9C4-639C24DC7060} = {649E5DEE-2E4E-4AAA-BBAE-0BF96A7AEE2F}
+		{368F25ED-66A2-4D85-939D-C900F0778A77} = {649E5DEE-2E4E-4AAA-BBAE-0BF96A7AEE2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F28DC81-3BDC-47F7-8202-075AFD3DF9B7}

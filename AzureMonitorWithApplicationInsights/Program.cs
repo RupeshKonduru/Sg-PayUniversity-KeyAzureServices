@@ -1,51 +1,68 @@
-using Microsoft.ApplicationInsights.AspNetCore.Extensions;
+﻿using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.Extensibility;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using System;
 
-var builder = Host.CreateDefaultBuilder(args)
-    .ConfigureServices((context, services) =>
-    {
-        // Add Application Insights telemetry services
-        services.AddApplicationInsightsTelemetry(context.Configuration["ApplicationInsights:InstrumentationKey"]);
-        services.AddControllersWithViews();
-    })
-    .ConfigureWebHostDefaults(webBuilder =>
-    {
-        webBuilder.UseStartup<Startup>();
-    });
-
-await builder.Build().RunAsync();
-
-public class Startup
+namespace OrderProcessingApp
 {
-    public void ConfigureServices(IServiceCollection services)
+    class Program
     {
-        services.AddControllersWithViews();
-    }
-
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-    {
-        if (env.IsDevelopment())
+        static void Main(string[] args)
         {
-            app.UseDeveloperExceptionPage();
+            // Set up Application Insights TelemetryClient
+            var telemetryConfig = TelemetryConfiguration.CreateDefault();
+            telemetryConfig.ConnectionString = "InstrumentationKey=your-instrumentation-key;";
+            var telemetryClient = new TelemetryClient(telemetryConfig);
+
+            // Simulate processing orders
+            ProcessOrders(telemetryClient);
+
+            // Flush telemetry before the application exits
+            telemetryClient.Flush();
+            System.Threading.Thread.Sleep(1000);  // Allow time for flushing
         }
-        else
+
+        static void ProcessOrders(TelemetryClient telemetryClient)
         {
-            app.UseExceptionHandler("/Home/Error");
-            app.UseHsts();
+            var orders = new[]
+            {
+                new Order { Id = 1, Amount = 100 },
+                new Order { Id = 2, Amount = 200 },
+                new Order { Id = 3, Amount = 0 }  // This will cause an exception
+            };
+
+            foreach (var order in orders)
+            {
+                try
+                {
+                    // Simulate order processing
+                    if (order.Amount <= 0)
+                    {
+                        throw new ArgumentException($"Invalid order amount for Order ID: {order.Id}.");
+                    }
+
+                    // Track custom event for successful order processing
+                    telemetryClient.TrackEvent("OrderProcessed", new System.Collections.Generic.Dictionary<string, string>
+                    {
+                        { "OrderId", order.Id.ToString() },
+                        { "Amount", order.Amount.ToString() }
+                    });
+
+                    Console.WriteLine($"Order {order.Id} processed successfully!");
+                }
+                catch (Exception ex)
+                {
+                    // Track exceptions
+                    telemetryClient.TrackException(ex);
+
+                    Console.WriteLine($"Error processing Order {order.Id}: {ex.Message}");
+                }
+            }
         }
 
-        app.UseHttpsRedirection();
-        app.UseStaticFiles();
-        app.UseRouting();
-        app.UseAuthorization();
-
-        app.UseEndpoints(endpoints =>
+        class Order
         {
-            endpoints.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-        });
+            public int Id { get; set; }
+            public decimal Amount { get; set; }
+        }
     }
 }
