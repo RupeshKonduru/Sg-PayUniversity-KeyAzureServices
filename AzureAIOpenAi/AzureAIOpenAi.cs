@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OpenAIWithAzureAI
 {
-    class Program
+    class AzureAIOpenAi
     {
         private const string openAIKey = "<Your-OpenAI-API-Key>";
         private const string openAIEndpoint = "https://api.openai.com/v1/engines/davinci/completions";

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzureRedisExample
 {
-    class Program
+    class AzureredisForCache
     {
         private const string redisConnectionString = "<your-redis-endpoint>:<your-port>,password=<your-password>,ssl=True,abortConnect=False";
 

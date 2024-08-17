@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AzureBlobExample
 {
-    class Program
+    class AzureBlobStorage
     {
         private const string connectionString = "<Your-Azure-Storage-Connection-String>";
         private const string containerName = "mycontainer";

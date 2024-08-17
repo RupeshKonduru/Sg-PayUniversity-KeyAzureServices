@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace KafkaOnAzureExample
 {
-    class Program
+    class AzureKafka
     {
         private const string bootstrapServers = "<Your-Event-Hubs-Endpoint>";
         private const string topic = "<Your-Kafka-Topic>";

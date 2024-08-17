@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzureEntraIDExample
 {
-    class Program
+    class AzureEntraId
     {
         private const string clientId = "<Your-Client-ID>";
         private const string tenantId = "<Your-Tenant-ID>";

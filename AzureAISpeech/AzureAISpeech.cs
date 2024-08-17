@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SpeechRecognitionSample
 {
-    class Program
+    class AzureAISpeech
     {
         private const string subscriptionKey = "<Your-Subscription-Key>";
         private const string serviceRegion = "<Your-Service-Region>"; // e.g., "eastus"

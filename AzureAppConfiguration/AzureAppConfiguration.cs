@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzureAppConfigurationExample
 {
-    class Program
+    class AzureAppConfiguration
     {
         private const string connectionString = "<Your-App-Config-Connection-String>";
 

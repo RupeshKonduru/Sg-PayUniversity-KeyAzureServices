@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzurePostgresExample
 {
-    class Program
+    class AzurePostgresSql
     {
         private const string connectionString = "Host=<your-server>.postgres.database.azure.com;Username=<your-username>;Password=<your-password>;Database=<your-database>";
 

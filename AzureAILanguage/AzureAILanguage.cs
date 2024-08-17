@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TextClassificationSample
 {
-    class Program
+    class AzureAILanguage
     {
         private const string endpoint = "<Your-Endpoint>";
         private const string apiKey = "<Your-Api-Key>";

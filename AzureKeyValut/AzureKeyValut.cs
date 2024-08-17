@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AzureKeyVaultExample
 {
-    class Program
+    class AzureKeyValut
     {
         private const string keyVaultUrl = "<Your-Key-Vault-URL>";
 

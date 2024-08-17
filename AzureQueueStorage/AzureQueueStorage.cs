@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AzureQueueStorageExample
 {
-    class Program
+    class AzureQueueStorage
     {
         private const string connectionString = "<Your-Azure-Storage-Connection-String>";
         private const string queueName = "myqueue";

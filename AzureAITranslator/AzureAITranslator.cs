@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RealTimeTranslation
 {
-    class Program
+    class AzureAITranslator
     {
         private const string endpoint = "<Your-Endpoint>";
         private const string apiKey = "<Your-Api-Key>";

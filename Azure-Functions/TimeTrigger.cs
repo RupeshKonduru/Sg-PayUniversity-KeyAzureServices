@@ -26,13 +26,6 @@ namespace Azure_Functions
         {
             var message = $"C# Timer trigger function executed at: {DateTime.Now}";
 
-            HttpClient client = new();
-            HttpRequestMessage requestMessage = new(HttpMethod.Post, "http://localhost:7036/api/MessageReceiver");
-
-            requestMessage.Content = new StringContent(JsonConvert.SerializeObject(message), Encoding.UTF8, "application/json");
-
-            client.Send(requestMessage);
-
             log.LogInformation("Timer Function Executed");
         }
 

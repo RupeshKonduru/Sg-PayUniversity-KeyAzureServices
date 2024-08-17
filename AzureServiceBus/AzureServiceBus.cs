@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzureServiceBusExample
 {
-    class Program
+    class AzureServiceBus
     {
         private const string connectionString = "<Your-Service-Bus-Connection-String>";
         private const string queueName = "<Your-Queue-Name>";

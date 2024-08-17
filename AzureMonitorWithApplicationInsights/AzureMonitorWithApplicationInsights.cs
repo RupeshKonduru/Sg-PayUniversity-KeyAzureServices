@@ -4,7 +4,7 @@ using System;
 
 namespace OrderProcessingApp
 {
-    class Program
+    class AzureMonitorWithApplicationInsights
     {
         static void Main(string[] args)
         {

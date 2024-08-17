@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AzureSqlExample
 {
-    class Program
+    class AzureSqlDB
     {
         private const string connectionString = "Server=tcp:<your-server>.database.windows.net,1433;Database=<your-database>;User ID=<your-username>;Password=<your-password>;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 

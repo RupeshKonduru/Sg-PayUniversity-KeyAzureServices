@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AzureEventHubsExample
 {
-    class Program
+    class AzureEventBus
     {
         private const string connectionString = "<Your-Event-Hub-Connection-String>";
         private const string eventHubName = "<Your-Event-Hub-Name>";
