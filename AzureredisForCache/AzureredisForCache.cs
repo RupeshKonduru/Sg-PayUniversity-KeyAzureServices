@@ -13,8 +13,8 @@ namespace AzureRedisExample
             var connection = ConnectionMultiplexer.Connect(redisConnectionString);
             var db = connection.GetDatabase();
 
-            string key = "sample-key";
-            string value = "Hello Redis";
+            string key = "sg-key";
+            string value = "Hello Redis Azure";
 
             // Set value in Redis
             await db.StringSetAsync(key, value);
